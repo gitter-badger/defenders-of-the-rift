@@ -108,3 +108,40 @@ Ranged attacks target up to 2 rows ahead. This includes your rows and your oppon
 ### 8.3. Combined Attacks
 
 Multiple units may combine their attacks to overcome a high dodge bonus. This is akin to flanking or distracting an opponent to let your buddy get this killing blow. Attack values may be added up and the first one to overcome the dodge bonus of the opponent deals damage. Further attackers on the same opponent deal damage as well.
+
+## 9. Card Statistics
+
+There are several card statistics which are important to the game. These govern the basics of combat, life, and
+resources. Statistics are signified by icons with a number to the left and/or right of it.
+
+### 9.1. Life Stats
+
+Life Stats are signified by the ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) icon. In general, the number to the left signifies an initial value and the number to the right signifies a recurring value.
+
+#### 9.1.1. Unit Life Stat
+
+ * Left value: Max Life
+ * Right value: Regen (or Diminish if negative)
+ * Examples:
+   - 3 Life: **3** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
+   - 4 Life, 1 Regen: **4** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) **1**
+   - 5 Life, 1 Diminish: **5** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) **-1**
+
+#### 9.1.2. Modifier Life Stat
+
+ * Left value: Immediate (once only) life given or taken
+ * Right value: Regen (or Diminish if negative)
+ * Examples:
+   - Heal unit up to 2 life immediately: **2** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
+   - Take 2 life immediately: **-2** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
+   - Regenerate 2 life each round: ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) **2**
+   - Drain 1 life each round: ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) **-1**
+
+#### 9.1.2. Action Life Stat
+
+ * Left value: Immediate (once only) life given or taken
+ * Right value: Not used (actions are immediate and cannot bestow recurring effects)
+ * Examples:
+   - Heal unit up to 4 life immediately: **4** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
+   - Take 3 life immediately: **-3** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
+
