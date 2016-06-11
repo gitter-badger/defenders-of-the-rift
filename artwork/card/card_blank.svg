@@ -66,17 +66,17 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.7816456"
-     inkscape:cx="112.8595"
+     inkscape:cx="114.79798"
      inkscape:cy="157.8595"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="mm"
      fit-margin-top="0.1"
-     inkscape:window-width="1195"
-     inkscape:window-height="1207"
-     inkscape:window-x="1208"
-     inkscape:window-y="70"
+     inkscape:window-width="1585"
+     inkscape:window-height="1263"
+     inkscape:window-x="795"
+     inkscape:window-y="47"
      inkscape:window-maximized="0"
      inkscape:snap-page="false"
      inkscape:showpageshadow="false" />
@@ -88,7 +88,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -106,6 +106,42 @@
        y="1.3670095e-05" />
   </g>
   <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Boxes"
+     style="display:inline">
+    <rect
+       style="fill:#707070;fill-opacity:1;stroke:#000000;stroke-width:2.10839391;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3406"
+       width="182.14357"
+       height="111.76641"
+       x="15.227426"
+       y="35.998291" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.09967387;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4210"
+       width="183.1523"
+       height="16.616861"
+       x="14.723063"
+       y="-169.5289"
+       transform="scale(1,-1)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.58823529;stroke:#000000;stroke-width:2.30173182;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4212"
+       width="181.95024"
+       height="122.06834"
+       x="15.324095"
+       y="173.91542" />
+    <rect
+       transform="scale(1,-1)"
+       y="-311.47913"
+       x="205.84372"
+       height="304.06061"
+       width="17.052729"
+       id="rect4223"
+       style="fill:#ffffff;fill-opacity:0.4012739;stroke:#000000;stroke-width:0.6638062;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.21656051" />
+  </g>
+  <g
      inkscape:label="Border"
      inkscape:groupmode="layer"
      id="layer1"
@@ -119,5 +155,117 @@
        y="738.65436"
        rx="6.9820738"
        ry="7.0117731" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Labels"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="16.177475"
+       y="19.434614"
+       id="text4226"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4228"
+         x="16.177475"
+         y="19.434614"
+         style="font-size:12.5px">Card Name</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="170.04323"
+       y="19.434614"
+       id="text4251"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4253"
+         x="170.04323"
+         y="19.434614"
+         style="font-size:12.5px">Type</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="15.817974"
+       y="31.298096"
+       id="text4255"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4257"
+         x="15.817974"
+         y="31.298096">COST</tspan></text>
+    <text
+       transform="translate(0,7.0866142)"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="162.49374"
+       y="298.50958"
+       id="text4279"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4281"
+         x="162.49374"
+         y="298.50958"
+         style="font-size:7.5px">Card URL</tspan></text>
+    <text
+       transform="translate(0,7.0866142)"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="14.739475"
+       y="299.22855"
+       id="text4275"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4277"
+         x="14.739475"
+         y="299.22855"
+         style="font-size:7.5px">Card Set/Author Info</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="72.978386"
+       y="235.85327"
+       id="text4267"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4269"
+         x="72.978386"
+         y="235.85327">Card Text</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="17.97497"
+       y="166.0444"
+       id="text4259"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4261"
+         x="17.97497"
+         y="166.0444">CARD STATS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-238.52206"
+       y="217.71594"
+       id="text4271"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan4273"
+         x="-238.52206"
+         y="217.71594">Remaining Life</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="86.279861"
+       y="94.929497"
+       id="text4263"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4265"
+         x="86.279861"
+         y="94.929497">Artwork</tspan></text>
   </g>
 </svg>
