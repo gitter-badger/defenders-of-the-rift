@@ -116,122 +116,122 @@ resources. Statistics are signified by icons with a number to the left and/or ri
 
 ### 9.1. Life Stats
 
-Life Stats are signified by the ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) icon. In general, the number to the left signifies an initial value and the number to the right signifies a recurring value.
+Life Stats are signified by the ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png) icon. In general, the number to the left signifies an initial value and the number to the right signifies a recurring value.
 
 #### 9.1.1. Unit Life Stat
 
  * Left value: Max Life
  * Right value: Regen (or Diminish if negative)
  * Examples:
-   - 3 Life: **3** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
-   - 4 Life, 1 Regen: **4** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) **1**
-   - 5 Life, 1 Diminish: **5** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) **-1**
+   - 3 Life: **3** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png)
+   - 4 Life, 1 Regen: **4** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png) **1**
+   - 5 Life, 1 Diminish: **5** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png) **-1**
 
 #### 9.1.2. Modifier Life Stat
 
  * Left value: Max Life adjustment
  * Right value: Regen (or Diminish if negative)
  * Examples:
-   - Increase Max Life of unit by 2: **2** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
-   - Reduce Max Life of unit by 2: **-2** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
-   - Regenerate 2 life each round: ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) **2**
-   - Drain 1 life each round: ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png) **-1**
+   - Increase Max Life of unit by 2: **2** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png)
+   - Reduce Max Life of unit by 2: **-2** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png)
+   - Regenerate 2 life each round: ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png) **2**
+   - Drain 1 life each round: ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png) **-1**
 
 #### 9.1.2. Action Life Stat
 
  * Left value: Immediate (once only) life given or taken
  * Right value: Not used (actions are immediate and cannot bestow recurring effects)
  * Examples:
-   - Heal unit up to 4 life immediately: **4** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
-   - Take 3 life immediately: **-3** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/life_16.png)
+   - Heal unit up to 4 life immediately: **4** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png)
+   - Take 3 life immediately: **-3** ![Life](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/life_16.png)
 
 ### 9.2. Resource Stats
 
-Resource Stats are signified by individual icons that represent the type of resource being created or stored. However, for documentation purposes, the ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/resource_16.png) icon will be used. This icon is not used in actual gameplay, and resources cannot be substituted for one another unless specifically stated. In general, the number to the left of the icon signifies the amount of resources that can be stored, and the number to the right signifies the resources produced each round.
+Resource Stats are signified by individual icons that represent the type of resource being created or stored. However, for documentation purposes, the ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/resource_16.png) icon will be used. This icon is not used in actual gameplay, and resources cannot be substituted for one another unless specifically stated. In general, the number to the left of the icon signifies the amount of resources that can be stored, and the number to the right signifies the resources produced each round.
 
 #### 9.2.1. Unit Resource Stat
 
  * Left value: Max Resources stored (may not be less than zero)
  * Right value: Resources produced each round (may not be less than zero)
  * Examples:
-   - Stores 4 resources: **4** ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/resource_16.png)
-   - Produces 1 resource each round:  ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/resource_16.png) **1**
+   - Stores 4 resources: **4** ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/resource_16.png)
+   - Produces 1 resource each round:  ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/resource_16.png) **1**
 
 #### 9.2.2. Modifier Resource Stat
 
  * Left value: Max Resource adjustment (positive or negative, increases or decreases storage capacity)
  * Right value: Resource production adjustment (positive or negative, increases or decreases, but not below 0)
  * Examples:
-   - Increase storage capacity by 2: **2** ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/resource_16.png)
-   - Increase resource production by 1: ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/resource_16.png) **-1**
-   - Decrease resource production by 2: ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/resource_16.png) **-2**
+   - Increase storage capacity by 2: **2** ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/resource_16.png)
+   - Increase resource production by 1: ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/resource_16.png) **-1**
+   - Decrease resource production by 2: ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/resource_16.png) **-2**
 
 #### 9.2.3. Action Resource Stat
 
  * Left value: Immediate (once only) resources given or taken
  * Right value: Not used (actions are immediate and cannot bestow recurring effects)
  * Examples:
-   - Give 4 resources immediately: **4** ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/resource_16.png)
-   - Take 4 resources immediately: **-4** ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/resource_16.png)
+   - Give 4 resources immediately: **4** ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/resource_16.png)
+   - Take 4 resources immediately: **-4** ![Resource](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/resource_16.png)
 
 ### 9.3. Attack Stats
 
-Attack Stats are signified by the ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/melee_16.png) icon and the ![Ranged](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/ranged_16.png) icon. The number to the left signifies attack and the number to the right signifies damage.
+Attack Stats are signified by the ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/melee_16.png) icon and the ![Ranged](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/ranged_16.png) icon. The number to the left signifies attack and the number to the right signifies damage.
 
 #### 9.3.1. Unit Attack Stats
 
  * Left value: Attack value (any positive number, may not be negative)
  * Right value: Damage value (any positive number, may not be negative)
  * Examples:
-   - Melee: 5 Attack, 1 Damage (a light, but accurate hitter): **3** ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/melee_16.png) **1**
-   - Melee: 2 Attack, 3 Damage (inaccurate, but heavy hitter): **2** ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/melee_16.png) **3**
-   - Ranged: 2 Attack, 1 Damage (a common bowman): **2** ![Ranged](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/ranged_16.png) **1**
+   - Melee: 5 Attack, 1 Damage (a light, but accurate hitter): **3** ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/melee_16.png) **1**
+   - Melee: 2 Attack, 3 Damage (inaccurate, but heavy hitter): **2** ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/melee_16.png) **3**
+   - Ranged: 2 Attack, 1 Damage (a common bowman): **2** ![Ranged](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/ranged_16.png) **1**
 
 #### 9.3.2. Modifier Attack Stats
 
  * Left value: Attack value adjustment (may be any number, positive or negative)
  * Right value: Damage value adjustment (may be any number, positive or negative)
  * Examples:
-   - Increase melee attack by 2: **2** ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/melee_16.png)
-   - Reduce melee damage by 2 (to minimum of zero): ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/melee_16.png) **-2**
-   - Increase ranged attack and damage both by 1: **1** ![Ranged](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/ranged_16.png) **1**
+   - Increase melee attack by 2: **2** ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/melee_16.png)
+   - Reduce melee damage by 2 (to minimum of zero): ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/melee_16.png) **-2**
+   - Increase ranged attack and damage both by 1: **1** ![Ranged](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/ranged_16.png) **1**
 
 #### 9.3.3. Action Life Stat
 
  * Left value: Attack value adjustment, until end of turn (may be any number, positive or negative)
  * Right value: Damage value adjustment, until end of turn (may be any number, positive or negative)
  * Examples:
-   - Increase melee attack by 3 until end of turn: **3** ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/melee_16.png)
-   - Reduce melee damage by 4 (to minimum of zero) until end of turn: ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/melee_16.png) **-4**
-   - Increase ranged attack and damage both by 2 until end of turn: **2** ![Ranged](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/ranged_16.png) **2**
+   - Increase melee attack by 3 until end of turn: **3** ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/melee_16.png)
+   - Reduce melee damage by 4 (to minimum of zero) until end of turn: ![Melee](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/melee_16.png) **-4**
+   - Increase ranged attack and damage both by 2 until end of turn: **2** ![Ranged](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/ranged_16.png) **2**
 
 ### 9.4. Defense Stats
 
-Defense Stats are signified by the ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png) icon. The number to the left signifies dodge and the number to the right signifies armor.
+Defense Stats are signified by the ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png) icon. The number to the left signifies dodge and the number to the right signifies armor.
 
 #### 9.4.1. Unit Defense Stats
 
  * Left value: Dodge value (any positive number, may not be negative)
  * Right value: Armor value (any positive number, may not be negative)
  * Examples:
-   - 5 Dodge (very nimble and unarmored): **5** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png)
-   - 4 Armor (stationary and heavily armored): ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png) **4**
-   - 3 Dodge, 1 Armor (quick and lightly armored): **3** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png) **1**
+   - 5 Dodge (very nimble and unarmored): **5** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png)
+   - 4 Armor (stationary and heavily armored): ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png) **4**
+   - 3 Dodge, 1 Armor (quick and lightly armored): **3** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png) **1**
 
 #### 9.4.2. Modifier Defense Stats
 
  * Left value: Dodge value adjustment (may be any number, positive or negative)
  * Right value: Armor value adjustment (may be any number, positive or negative)
  * Examples:
-   - Increase Dodge by 2: **2** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png)
-   - Reduce Armor by 2 (to minimum of zero): ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png) **-2**
-   - Increase dodge and armor both by 1: **1** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png) **1**
+   - Increase Dodge by 2: **2** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png)
+   - Reduce Armor by 2 (to minimum of zero): ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png) **-2**
+   - Increase dodge and armor both by 1: **1** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png) **1**
 
 #### 9.4.3. Action Defense Stat
 
  * Left value: Dodge value adjustment, until end of turn (may be any number, positive or negative)
  * Right value: Armor value adjustment, until end of turn (may be any number, positive or negative)
  * Examples:
-   - Increase Dodge by 2 until end of turn: **2** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png)
-   - Reduce Armor by 3 (to minimum of zero) until end of turn: ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png) **-2**
-   - Increase dodge and armor both by 2 until end of turn: **2** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/icons/defense_16.png) **2**
+   - Increase Dodge by 2 until end of turn: **2** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png)
+   - Reduce Armor by 3 (to minimum of zero) until end of turn: ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png) **-2**
+   - Increase dodge and armor both by 2 until end of turn: **2** ![Defense](https://raw.githubusercontent.com/coderkevin/defenders-of-the-rift/master/artwork/icons/defense_16.png) **2**
